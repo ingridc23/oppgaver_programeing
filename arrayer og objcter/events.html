@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+</head>
+<body>
+
+    <ul id="svar"> </ul>
+
+    <script>
+        const events = {
+            years: ["1969","1971","1981","1990","1998"],
+            eventname: ["The creation of ARPANET","The first email is sent","IBM launches a PC","Tim Berners Lee launches the first website",
+            "Google was founded"]
+        }
+        
+        let eventListHTML= ""
+        
+        events.map(event => document.getElementById("svar").innerHTML +=
+        `<li> x </li>`)     
+        
+       eventListHTML
+        //${item}: ${}
+
+    </script>
+    
+</body>
+</html>

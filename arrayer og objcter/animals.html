@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dryer</title>
+</head>
+<body>
+    <p id="dyr"></p>
+    <p id="oversette"></p>
+
+    <script>
+        const dyrearter = [ "katt","hund","bjørn","slange","rev","oter", "ku","sau","gris","blekksprut"]
+        const animals = ["cat","dog","bear", "snake","fox","otter","cow","sheep","pig","octopus"]
+
+        const listet = dyrearter["2"]
+        const listet2 =dyrearter["8"]
+        const listet3 = animals["2"]
+        const listet4 = animals["8"]
+
+        document.getElementById("dyr").innerHTML= `Her er det listet opp noen dyr, for eksempel ${listet} og ${listet2}.`
+        document.getElementById("oversette").innerHTML= `${listet} er et dyr. Det heter ${listet3} på engelsk. ${listet2} er også et dyr, som heter ${listet4} på engelsk.`
+
+    </script>
+    
+</body>
+</html>

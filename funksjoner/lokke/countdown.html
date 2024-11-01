@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nedtelling</title>
+    
+</head>
+<body>
+    <p id="led">  </p>
+    <p id="sent"></p>
+
+    <ul id="nedtelling">
+
+
+    </ul>
+
+    <script>
+        let htmlString = ""
+    
+    
+        //st 10; so 0; re teller -1
+        for(let teller = 0; teller <= 10; teller++ ){
+        htmlString += `<li> ${teller} </li>`;
+        }
+
+        document.getElementById("nedtelling").innerHTML= htmlString ;
+
+
+        // prøver ut tid funksonjnen 
+        let vet = document.getElementById("sent");
+        const mytimeout = setTimeout(vetetur, 1000);
+
+        function vetetur() {
+         document.getElementById("led").innerHTML = "moovfd";
+        }
+        setTimeout(function(){vet = "vet mer..."},2000)
+
+
+        
+
+
+
+
+
+
+
+
+        
+
+
+    
+    </script>
+
+    
+</body>
+</html>

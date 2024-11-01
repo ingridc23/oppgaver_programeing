@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if else nr 2</title>
+</head>
+<body>
+    <h2>skal fylles med tekst og senere skrives ut</h2>
+    <p id="svar"></p>
+
+
+    <script>
+        const age=21
+
+        if ( age < 18 ) {
+            document.getElementById("svar").innerHTML = "Du er ikke myndig"
+        } else if ( age >= 18 && age <= 62 ){
+            document.getElementById("svar").innerHTML = "Du er myndig og klar for studier eller arbeidslivet" 
+        } else {
+            document.getElementById("svar").innerHTML = "Du er pensjonsklar!"
+        }
+
+
+
+
+    </script>
+    
+</body>
+</html>

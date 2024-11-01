@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dryer purs</title>
+</head>
+<body>
+    <p id="dyr"></p>
+    
+
+    <script>
+        const dyrearter = [ "katt","hund","bjørn","slange","rev","oter", "ku","sau","gris","blekksprut"]
+        const animals = ["cat","dog","bear", "snake","fox","otter","cow","sheep","pig","octopus"]
+        
+        dyrearter.push("elefant","høne")
+        
+        dyrearter.sort()
+        
+
+        document.getElementById("dyr").innerHTML= `Antall dyr: ${dyrearter.join(", ")}.`
+       
+
+    </script>
+    
+</body>
+</html>
